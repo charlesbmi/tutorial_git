@@ -1,2 +1,2 @@
 # tutorial_git
-Mostly-empty repo for Git workshop on branching
+Repo for Git workshop on branching
