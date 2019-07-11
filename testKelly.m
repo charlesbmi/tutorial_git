@@ -18,3 +18,5 @@ for k=1:K;
     end
 end
 pValue=mean(I);
+
+disp('hello Dolly')
