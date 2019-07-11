@@ -1,2 +1,2 @@
 # tutorial_git
-Repo for Git workshop on branching
+Repo for workshop on branching
