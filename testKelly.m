@@ -1,5 +1,6 @@
 % ACM/CS/IDS 157 : Statistical Inference
 % PS5, Problem 4.
+%changing for tutorial
 %------------------------------------------------------------------
 clc; clear; close all;
 A=[7.58, 8.52, 8.01, 7.99, 7.93, 7.89, 7.85, 7.82, 7.80];
@@ -8,7 +9,7 @@ Z=[A,B];
 N=length(Z);
 sObs=abs(mean(A)-mean(B));   % observed value of the test statistic
 K=10^5; % number of permutations used 
-I=zeros(1,K);
+I=zeros(1,K)
 for k=1:K;
     p=randperm(N);  % random permuation
     Zp=Z(p);        % permuted data
